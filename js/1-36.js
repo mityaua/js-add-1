@@ -8,6 +8,19 @@ function checkForSpam(message) {
   return result;
 }
 
+// Второй вариант решения
+
+// function checkForSpam(message) {
+//   let result;
+//   // Пиши код ниже этой строки
+//   result =
+//     message.toLowerCase().includes('spam') ||
+//     message.toLowerCase().includes('sale');
+
+//   // Пиши код выше этой строки
+//   return result;
+// }
+
 checkForSpam('Latest technology news'); // возвращает false.
 checkForSpam('JavaScript weekly newsletter'); // возвращает false.
 checkForSpam('Get best sale offers now!'); // возвращает true.
